@@ -36,6 +36,8 @@ func main() {
     var diskon int
     var gantiPaket string
     var paketBaru string
+    
+    fmt.Println("SELAMAT DATANG DI PROGRAM TAGIHAN INTERNET DWI LAKSMANA")
 
     fmt.Print("Masukkan nama paket internet (STARTER/BUSINESS/ENTERPRISE): ")
     fmt.Scanln(&paket)
@@ -74,7 +76,6 @@ func main() {
     var tagihanSetelahDiskon = tagihanKotor - float64(diskon)
     var tagihanBersih = tagihanSetelahDiskon + (tagihanSetelahDiskon * 11 / 100)
 
-	fmt.Println("SELAMAT DATANG DI PROGRAM TAGIHAN INTERNET DWI LAKSMANA")
     //struk
     fmt.Println("================STRUK TAGIHAN==============")
     fmt.Println("Abodemen                               : Rp", dataLama.biayaDasar)
