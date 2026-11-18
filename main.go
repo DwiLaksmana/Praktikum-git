@@ -75,6 +75,7 @@ func main() {
     var tagihanBersih = tagihanSetelahDiskon + (tagihanSetelahDiskon * 11 / 100)
 
 	fmt.Println("TAGIHAN INTERNET")
+	fmt.Println("INI PERUBAHAN")
     //struk
     fmt.Println("================STRUK TAGIHAN==============")
     fmt.Println("Abodemen                               : Rp", dataLama.biayaDasar)
