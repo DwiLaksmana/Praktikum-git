@@ -74,8 +74,7 @@ func main() {
     var tagihanSetelahDiskon = tagihanKotor - float64(diskon)
     var tagihanBersih = tagihanSetelahDiskon + (tagihanSetelahDiskon * 11 / 100)
 
-	fmt.Println("TAGIHAN INTERNET")
-	fmt.Println("INI PERUBAHAN")
+	fmt.Println("SELAMAT DATANG DI PROGRAM TAGIHAN INTERNET DWI LAKSMANA")
     //struk
     fmt.Println("================STRUK TAGIHAN==============")
     fmt.Println("Abodemen                               : Rp", dataLama.biayaDasar)
