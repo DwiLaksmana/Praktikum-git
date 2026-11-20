@@ -11,7 +11,6 @@ Aplikasi berbasis CLI sederhana menggunakan bahasa pemrograman Go (Golang) untuk
 ## Daftar Paket Layanan
 
 | Nama Paket | Biaya Dasar (Abodemen) | Batas Perangkat | Denda Kelebihan Perangkat |
-| :--- | :--- | :--- | :--- |
 | **STARTER** | Rp150.000 | 100 perangkat | Rp75.000 |
 | **BUSINESS** | Rp500.000 | 500 perangkat | Rp200.000 |
 | **ENTERPRISE** | Rp1.500.000 | 2.000 perangkat | Rp0 (Gratis) |

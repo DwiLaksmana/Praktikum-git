@@ -138,7 +138,7 @@ func main() {
         fmt.Println("Batas Perangkat    : ", dataBaru.batasPerangkat)
         fmt.Println("Denda Lebih        : ", dendaBaru)
 
-        fmt.Println("Terimakasih telah menggunakan layanan kami")
+        fmt.Println("Perubahan paket internet berhasil dilakukan. Terimakasih telah menggunakan layanan kami")
     
     }else{
         fmt.Println("Terimakasih telah menggunakan layanan kami")
