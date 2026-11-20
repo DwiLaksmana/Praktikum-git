@@ -24,7 +24,5 @@ Aplikasi berbasis CLI sederhana menggunakan bahasa pemrograman Go (Golang) untuk
    ```bash
    go run main.go
    ```
-   *(Sesuaikan `main.go` dengan nama file Go Anda).*
-
 ## Author
 * **Dwi Laksana**
