@@ -85,6 +85,7 @@ func main() {
     fmt.Printf ("Tagihan Kotor                          : Rp %.2f\n", tagihanKotor)
     fmt.Println("Diskon                                 : Rp", diskon)
     fmt.Printf("Total Sesudah PPN                      : Rp %.2f\n", tagihanBersih)
+    fmt.Println("Silahkan lakukan pembayaran sebelum tanggal 10 untuk menghindari pemblokiran akses internet anda")
     if (pemakaian>50 && pembayaranLancar == "N"){
         fmt.Println("AKSES ANDA DIBLOKIR. SEGERA LAKUKAN PEMBAYARAN UNTUK MENGHINDARI PEMBLOKIRAN AKSES INTERNET ANDA.")
     } 

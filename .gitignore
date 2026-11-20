@@ -1,15 +1,20 @@
-# Binary hasil compile Go
+# File hasil kompilasi (Windows & OS lainnya)
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
 
-# File test dan coverage
+# File log
+*.log
+
+# File environment / konfigurasi sensitif
+.env
+.env.*
+
+# File test dan workspace Go
 *.test
 *.out
-
-# File workspace Go (jika menggunakan go.work)
 go.work
 go.work.sum
 
@@ -17,7 +22,7 @@ go.work.sum
 .vscode/
 .idea/
 
-# File sampah sistem operasi (Windows & macOS)
+# File sampah sistem operasi
 Thumbs.db
 Desktop.ini
 .DS_Store
