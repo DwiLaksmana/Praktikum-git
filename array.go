@@ -31,12 +31,35 @@ func main() {
 	//============================
 
 //  slice
-	angka := make ([]int, 0, 3)
-	fmt.Println(angka, len(angka), cap(angka))
-	angka = append(angka, 10, 20, 30)
-	fmt.Println(angka, len(angka), cap(angka))
-	angka = append(angka, 40)
-	fmt.Println(angka, len(angka), cap(angka))
+	// angka := make ([]int, 0, 3)
+	// fmt.Println(angka, len(angka), cap(angka))
+	// angka = append(angka, 10, 20, 30)
+	// fmt.Println(angka, len(angka), cap(angka))
+	// angka = append(angka, 40)
+	// fmt.Println(angka, len(angka), cap(angka))
 	//cap akan terus dikali dua jika sudah melebihi kapasitas sebelumnya
+
+//latihan 1
+	// nilai := [] int{80, 75, 90}
+	// fmt.Println(nilai, len(nilai), cap(nilai))
+	// nilai = append(nilai, 85, 95)
+	// fmt.Println(nilai, len(nilai), cap(nilai))
+	// nilai[0] = 100
+	// fmt.Println(nilai, len(nilai), cap(nilai))
+
+// for array
+	nilai := []int{70, 85, 90, 65, 88}
+
+	for i := 0; i < len(nilai); i++ {
+		fmt.Println(i, nilai[i])
+	}
+
+	for i, v := range nilai {
+		fmt.Println(i, v)
+	}
+
+	for _, v := range nilai {
+		fmt.Println(v)
+	}
 
 }
