@@ -48,18 +48,35 @@ func main() {
 	// fmt.Println(nilai, len(nilai), cap(nilai))
 
 // for array
-	nilai := []int{70, 85, 90, 65, 88}
+	// nilai := []int{70, 85, 90, 65, 88}
 
-	for i := 0; i < len(nilai); i++ {
-		fmt.Println(i, nilai[i])
-	}
+	// for i := 0; i < len(nilai); i++ {
+	// 	fmt.Println(i, nilai[i])
+	// }
 
-	for i, v := range nilai {
-		fmt.Println(i, v)
-	}
+	// for i, v := range nilai {
+	// 	fmt.Println(i, v)
+	// }
+
+	// for _, v := range nilai {
+	// 	fmt.Println(v)
+	// }
+
+// agregasikan nilai dalam variabel (menjumlahkan nilai)
+
+	nilai := []float64{78.5, 82, 91.5, 64, 88}
+	total := float64(0)
+	lulus := 0
 
 	for _, v := range nilai {
-		fmt.Println(v)
+		total += v
+		if v >= 75 {
+			lulus++
+		}
 	}
+	rata := total / float64(len(nilai))
+	fmt.Println("Total nilai:", total)
+	fmt.Println("Jumlah siswa lulus:", lulus)
+	fmt.Println("Rata-rata nilai:", rata)
 
 }
