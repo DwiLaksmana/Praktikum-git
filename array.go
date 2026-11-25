@@ -37,5 +37,6 @@ func main() {
 	fmt.Println(angka, len(angka), cap(angka))
 	angka = append(angka, 40)
 	fmt.Println(angka, len(angka), cap(angka))
+	//cap akan terus dikali dua jika sudah melebihi kapasitas sebelumnya
 
 }
