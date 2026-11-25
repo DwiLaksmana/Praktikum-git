@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-   
+//    buat array
     // var nilai [4]int
 	// nilai[0] = 88
 	// nilai[1] = 76
@@ -16,12 +16,26 @@ func main() {
 
 	// ===========================
 
-	nilai := [4]int{88, 76, 95, 81}
-	fmt.Println(nilai[3])
+// ubah nilai array
+	// nilai := [4]int{88, 76, 95, 81}
+	// fmt.Println(nilai[3])
 
-	i:=3
-	fmt.Println(nilai[i])
+	// //print dengan variabel
+	// // i:=3
+	// // fmt.Println(nilai[i])
 
+	// //mengganti nilai didalam array
+	// nilai[0] = 90
+	// fmt.Println(nilai[0])
+	// fmt.Println(nilai)
 	//============================
+
+//  slice
+	angka := make ([]int, 0, 3)
+	fmt.Println(angka, len(angka), cap(angka))
+	angka = append(angka, 10, 20, 30)
+	fmt.Println(angka, len(angka), cap(angka))
+	angka = append(angka, 40)
+	fmt.Println(angka, len(angka), cap(angka))
 
 }
